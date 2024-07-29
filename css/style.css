@@ -1,0 +1,71 @@
+h1,h2,h3,h4,h5,h6 
+{
+    font-weight: bold;
+}
+.aa
+{
+    bottom: 20px;
+    left: 20px;
+    color: #fff;
+    text-shadow: 0px 0px 5px #000;
+}
+.tour img 
+{
+    height: 230px;
+    object-fit: cover;
+}
+.nav-pills .nav-link.active
+{
+    background: transparent;
+    color: #000;
+    font-weight: bold;
+}
+.quote
+{
+    background:linear-gradient(#00000087, #0000007a), url(https://nepalwanders.com/wp-content/themes/nepalwanders/img/youtube.jpg);
+    height: 70vh;
+    position: relative;
+}
+.quote-inner
+{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-align: center;
+}
+.small
+{
+    width: 70px; height: 70px; background: #fff; border-radius: 50%;
+    margin: auto;
+}
+.hero
+{
+    background:linear-gradient(#00000087, #0000007a), url(https://nepalwanders.com/wp-content/uploads/2023/08/4-1.jpg);
+    height: 100vh;
+    position: relative;
+}
+.hero-inner
+{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-align: center;
+}
+@media(min-width: 480px)
+{
+.navbar-expand-lg .navbar-nav .nav-link
+{
+    color: #fff;
+    font-size: 18px;
+    padding: 15px;
+}
+}
+
+@media (max-width: 480px) {
+    .hero{ height: 60vh;}
+    .hero-inner{ width: 100%;}
+}
